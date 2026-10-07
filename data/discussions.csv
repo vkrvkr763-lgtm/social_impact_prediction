@@ -1,0 +1,61 @@
+discussion_id,policy_id,policy_name,text,stance_label,source,date,is_real_discussion,data_note
+D001,POL001,PM-KISAN,The financial assistance gives small farmers some support for farm expenses.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D002,POL001,PM-KISAN,The amount is too low compared with rising seed and fertilizer costs.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D003,POL001,PM-KISAN,My PM-KISAN installment arrived in my bank account this week.,neutral,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D004,POL001,PM-KISAN,"The scheme is useful, but the assistance should increase to match farming costs.",mixed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D005,POL001,PM-KISAN,Direct transfers can help eligible farmers manage household needs.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D006,POL001,PM-KISAN,Some eligible farmers face problems with registration and payment status.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D007,POL002,PMFBY,Crop insurance can protect farmers from financial losses after crop damage.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D008,POL002,PMFBY,Farmers should not have to wait so long for claim settlements.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D009,POL002,PMFBY,I submitted my crop insurance claim documents at the local office.,neutral,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D010,POL002,PMFBY,"Crop insurance is important, but claim processing needs to be faster.",mixed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D011,POL002,PMFBY,The scheme can reduce uncertainty after floods or droughts.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D012,POL002,PMFBY,The claim process can be confusing for farmers.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D013,POL004,MGNREGA,MGNREGA provides rural families with an important source of wage employment.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D014,POL004,MGNREGA,Delayed wage payments make it difficult for workers to depend on the programme.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D015,POL004,MGNREGA,The village job card list was updated at the panchayat office.,neutral,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D016,POL004,MGNREGA,"The programme supports workers, but work availability and payment timing need improvement.",mixed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D017,POL004,MGNREGA,Public works can create useful village assets.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D018,POL004,MGNREGA,Workers should receive wages without repeated administrative delays.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D019,POL005,PMKVY,Skill training can help young people prepare for jobs.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D020,POL005,PMKVY,Training is not enough if candidates cannot find jobs afterwards.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D021,POL005,PMKVY,The training centre announced a new batch starting next month.,neutral,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D022,POL005,PMKVY,"The scheme offers useful training, but placement support should be stronger.",mixed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D023,POL005,PMKVY,Practical training can improve confidence for entry-level work.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D024,POL005,PMKVY,Course quality and employer recognition should be checked consistently.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D025,POL006,Startup India,The initiative can help entrepreneurs build companies.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D026,POL006,Startup India,Small founders may find compliance and funding requirements difficult.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D027,POL006,Startup India,The startup held an event about its registration and business plans.,neutral,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D028,POL006,Startup India,"The initiative encourages entrepreneurship, but funding remains a challenge.",mixed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D029,POL006,Startup India,A stronger startup ecosystem can create jobs and encourage new ideas.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D030,POL006,Startup India,Eligibility rules can be difficult for founders to understand.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D031,POL008,PMJDY,Basic bank accounts can help more households access formal financial services.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D032,POL008,PMJDY,An account is less useful if people cannot access nearby banking services.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D033,POL008,PMJDY,I visited the bank to update my account details.,neutral,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D034,POL008,PMJDY,"The scheme improves banking access, but financial awareness is also needed.",mixed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D035,POL008,PMJDY,Direct transfers can make it easier for families to receive eligible benefits.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D036,POL008,PMJDY,Some account holders struggle to understand available services and requirements.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D037,POL009,PM-JAY,Health coverage can reduce the financial burden of eligible hospital treatment.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D038,POL009,PM-JAY,Patients should be able to identify hospitals that accept scheme benefits.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D039,POL009,PM-JAY,The hospital asked me to check my eligibility details.,neutral,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D040,POL009,PM-JAY,"The scheme can help families, but awareness and hospital access matter.",mixed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D041,POL009,PM-JAY,Reducing hospital costs is important for vulnerable families.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D042,POL009,PM-JAY,Patients need clearer information about which treatments are covered.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D043,POL011,PMAY-U,Housing support can help eligible urban families work toward a secure home.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D044,POL011,PMAY-U,Rising construction costs can make assistance insufficient.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D045,POL011,PMAY-U,The municipality published an update about housing application documents.,neutral,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D046,POL011,PMAY-U,"The scheme is valuable, but processing and affordability remain concerns.",mixed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D047,POL011,PMAY-U,Access to safe housing can improve family stability.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D048,POL011,PMAY-U,Applicants need clearer updates about approval status and timelines.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D049,POL013,PMUY,Access to LPG can reduce reliance on smoky traditional cooking fuels.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D050,POL013,PMUY,Refill costs can make regular LPG use difficult for low-income households.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D051,POL013,PMUY,The distributor announced the LPG cylinder delivery schedule.,neutral,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D052,POL013,PMUY,"LPG access is beneficial, but refill affordability matters.",mixed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D053,POL013,PMUY,Cleaner cooking fuel can reduce smoke inside homes.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D054,POL013,PMUY,The cost of refills should be considered alongside the initial connection.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D055,POL016,Digital India,Digital public services can save time when people can access them easily.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D056,POL016,Digital India,Online-only services can exclude people with limited internet access.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D057,POL016,Digital India,The department posted a notice about an online application portal.,neutral,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D058,POL016,Digital India,"Digital services are convenient, but offline help and privacy protections matter.",mixed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D059,POL016,Digital India,Digital access can make government services easier to find.,supportive,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.
+D060,POL016,Digital India,Technical failures can prevent people from completing online applications.,opposed,synthetic_demo,,False,Synthetic example for prototyping; not an actual historical public post.

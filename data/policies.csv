@@ -1,0 +1,31 @@
+policy_id,policy_name,sector,description,launch_date,official_url
+POL001,Pradhan Mantri Kisan Samman Nidhi (PM-KISAN),Agriculture,Income support scheme for eligible landholding farmer families.,2018-12-01,https://pmkisan.gov.in/
+POL002,Pradhan Mantri Fasal Bima Yojana (PMFBY),Agriculture,Crop insurance scheme intended to provide financial support to farmers affected by crop loss or damage.,,https://pmfby.gov.in/
+POL003,Pradhan Mantri Krishi Sinchayee Yojana (PMKSY),Agriculture,Programme focused on improving irrigation access and water-use efficiency in agriculture.,,https://www.india.gov.in/my-government/schemes
+POL004,Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA),Employment and Rural Development,Provides a legal guarantee of wage employment to rural households meeting scheme conditions.,2005-09-07,https://nrega.nic.in/
+POL005,Pradhan Mantri Kaushal Vikas Yojana (PMKVY),Skills and Employment,Skill-development initiative supporting training and certification for eligible candidates.,,https://www.msde.gov.in/
+POL006,Startup India,Business and Industry,Initiative to support entrepreneurship and the startup ecosystem in India.,2016-01-16,https://www.startupindia.gov.in/
+POL007,Make in India,Business and Industry,"Initiative aimed at encouraging manufacturing, investment, and industrial development.",2014-09-25,https://www.makeinindia.com/
+POL008,Pradhan Mantri Jan Dhan Yojana (PMJDY),Finance and Inclusion,Financial-inclusion programme promoting access to basic banking services.,2014-08-28,https://pmjdy.gov.in/
+POL009,Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY),Health,Government-funded health assurance scheme for eligible beneficiary families.,2018-09-23,https://pmjay.gov.in/
+POL010,National Health Mission (NHM),Health,"Supports public-health systems and health services, including rural and urban health missions.",,https://nhm.gov.in/
+POL011,Pradhan Mantri Awas Yojana - Urban (PMAY-U),Housing,Housing programme supporting eligible urban households under its applicable components.,2015-06-25,https://pmay-urban.gov.in/
+POL012,Pradhan Mantri Awaas Yojana - Gramin (PMAY-G),Housing and Rural Development,Programme supporting construction of pucca houses for eligible rural households.,2016-11-20,https://pmayg.nic.in/
+POL013,Pradhan Mantri Ujjwala Yojana (PMUY),Energy and Welfare,Scheme supporting LPG connections for eligible households.,2016-05-01,https://www.pmuy.gov.in/
+POL014,Jal Jeevan Mission,Water and Sanitation,Mission focused on providing functional household tap-water connections in rural areas.,2019-08-15,https://jaljeevanmission.gov.in/
+POL015,Swachh Bharat Mission,Sanitation and Environment,National cleanliness and sanitation mission with rural and urban components.,2014-10-02,https://swachhbharatmission.ddws.gov.in/
+POL016,Digital India,Digital Governance,"Programme promoting digital infrastructure, digital services, and digital empowerment.",2015-07-01,https://www.digitalindia.gov.in/
+POL017,National Education Policy (NEP) 2020,Education,Policy framework for reforms across school and higher education.,2020-07-29,https://www.education.gov.in/nep/about-nep
+POL018,Samagra Shiksha,Education,Integrated school-education programme covering support from pre-school through senior secondary levels.,,https://samagra.education.gov.in/
+POL019,PM SHRI Schools,Education,Initiative to develop selected schools as exemplar schools aligned with NEP 2020.,2022-09-07,https://pmshrischools.education.gov.in/
+POL020,Pradhan Mantri Kisan Maandhan Yojana (PM-KMY),Agriculture and Social Security,Voluntary contributory pension scheme for eligible small and marginal farmers.,2019-09-12,https://maandhan.in/
+POL021,Pradhan Mantri Matsya Sampada Yojana (PMMSY),Fisheries,"Scheme supporting fisheries development, production, infrastructure, and related value chains.",,https://dof.gov.in/pmmsy
+POL022,Pradhan Mantri Gram Sadak Yojana (PMGSY),Rural Infrastructure,Programme to improve rural road connectivity.,2000-12-25,https://pmgsy.nic.in/
+POL023,Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM),Rural Development and Livelihoods,"Supports rural livelihoods and community institutions, including self-help groups.",,https://aajeevika.gov.in/
+POL024,National Social Assistance Programme (NSAP),Social Welfare,Social-assistance programme including eligible pension and household-benefit components.,,https://nsap.nic.in/
+POL025,Pradhan Mantri Suraksha Bima Yojana (PMSBY),Insurance and Finance,Accident-insurance scheme available to eligible account holders under scheme rules.,,https://www.jansuraksha.gov.in/
+POL026,Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY),Insurance and Finance,Life-insurance scheme available to eligible subscribers under scheme rules.,,https://www.jansuraksha.gov.in/
+POL027,Atal Pension Yojana (APY),Pension and Social Security,Pension scheme designed to support retirement income for eligible subscribers.,2015-05-09,https://www.pfrda.org.in/
+POL028,PM-KUSUM,Renewable Energy and Agriculture,"Scheme supporting solar energy applications in agriculture, including pumps and decentralised plants.",,https://mnre.gov.in/
+POL029,FAME India Scheme,Transport and Environment,Government initiative supporting adoption of electric and hybrid vehicles; check current scheme status before use.,,https://heavyindustries.gov.in/
+POL030,Pradhan Mantri Mudra Yojana (PMMY),Finance and Small Business,Scheme providing institutional credit support to eligible micro and small business activities.,2015-04-08,https://www.mudra.org.in/
