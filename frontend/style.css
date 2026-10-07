@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+
+/* Header */
+
+header {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+header p {
+    margin-top: 10px;
+    color: #d1d5db;
+}
+
+
+/* Main */
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+
+/* Sections */
+
+.section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+
+/* Search */
+
+#searchInput {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+/* Policy cards */
+
+#policyList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.policy-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fafafa;
+}
+
+.policy-card h3 {
+    margin-top: 0;
+}
+
+.policy-card p {
+    line-height: 1.5;
+}
+
+.policy-card a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Analysis */
+
+.description {
+    color: #666;
+    line-height: 1.6;
+}
+
+#discussionInput {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    resize: vertical;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+#analyzeButton {
+    margin-top: 15px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#analyzeButton:hover {
+    background: #1d4ed8;
+}
+
+#analyzeButton:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+}
+
+
+/* Result */
+
+.result {
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.result-main {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 25px;
+}
+
+.result-label {
+    display: block;
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+.stance {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#confidence {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+/* Probability */
+
+.probability {
+    margin-bottom: 15px;
+}
+
+.probability-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.progress {
+    height: 10px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress div {
+    height: 100%;
+    width: 0%;
+    background: #2563eb;
+    transition: width 0.5s ease;
+}
+
+
+.model-note {
+    margin-top: 25px;
+    font-size: 13px;
+    color: #6b7280;
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+
+    .result-main {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    main {
+        width: 94%;
+    }
+}
+.analytics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.stat-card {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-card h3 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.stat-card p {
+    margin-bottom: 0;
+    color: #6b7280;
+}

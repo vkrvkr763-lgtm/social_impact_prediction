@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PolicyPulse</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>PolicyPulse</h1>
+        <p>Explore Indian government policies and analyze public discussions</p>
+    </header>
+
+    <main>
+
+        <!-- ============================= -->
+        <!-- GOVERNMENT POLICIES -->
+        <!-- ============================= -->
+
+        <section class="section">
+
+            <h2>Government Policies</h2>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search policies..."
+            >
+
+            <p id="status">
+                Loading policies...
+            </p>
+
+            <div id="policyList"></div>
+
+        </section>
+
+
+        <!-- ============================= -->
+        <!-- DISCUSSION ANALYSIS -->
+        <!-- ============================= -->
+
+        <section class="section analysis-section">
+
+            <h2>Analyze a Policy Discussion</h2>
+
+            <p class="description">
+                Enter a discussion or opinion about a government policy.
+                PolicyPulse will predict whether the discussion is
+                supportive, opposed, neutral, or mixed.
+            </p>
+
+            <textarea
+                id="discussionInput"
+                placeholder="Example: The scheme is helping farmers, but the financial support should be increased."
+                rows="6"
+            ></textarea>
+
+            <button id="analyzeButton">
+                Analyze Discussion
+            </button>
+
+            <p id="analysisStatus"></p>
+
+
+            <!-- Analysis Result -->
+
+            <div id="analysisResult" class="result hidden">
+
+                <h3>Analysis Result</h3>
+
+                <div class="result-main">
+
+                    <!-- Stance -->
+
+                    <div>
+
+                        <span class="result-label">
+                            Predicted Stance
+                        </span>
+
+                        <div id="stance" class="stance">
+                            -
+                        </div>
+
+                    </div>
+
+
+                    <!-- Confidence -->
+
+                    <div>
+
+                        <span class="result-label">
+                            Confidence
+                        </span>
+
+                        <div id="confidence">
+                            -
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Probabilities -->
+
+                <h4>Class Probabilities</h4>
+
+
+                <!-- Supportive -->
+
+                <div class="probability">
+
+                    <div class="probability-header">
+
+                        <span>
+                            Supportive
+                        </span>
+
+                        <span id="supportiveValue">
+                            0%
+                        </span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div id="supportiveBar"></div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Opposed -->
+
+                <div class="probability">
+
+                    <div class="probability-header">
+
+                        <span>
+                            Opposed
+                        </span>
+
+                        <span id="opposedValue">
+                            0%
+                        </span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div id="opposedBar"></div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Neutral -->
+
+                <div class="probability">
+
+                    <div class="probability-header">
+
+                        <span>
+                            Neutral
+                        </span>
+
+                        <span id="neutralValue">
+                            0%
+                        </span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div id="neutralBar"></div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Mixed -->
+
+                <div class="probability">
+
+                    <div class="probability-header">
+
+                        <span>
+                            Mixed
+                        </span>
+
+                        <span id="mixedValue">
+                            0%
+                        </span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div id="mixedBar"></div>
+
+                    </div>
+
+                </div>
+
+
+                <p class="model-note">
+                    Experimental prediction using TF-IDF + Random Forest.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================= -->
+        <!-- DATASET ANALYTICS -->
+        <!-- ============================= -->
+
+        <section class="section">
+
+            <h2>Dataset Analytics</h2>
+
+            <p class="description">
+                Distribution of stances in the current PolicyPulse
+                demonstration dataset.
+            </p>
+
+
+            <div class="analytics-grid">
+
+
+                <!-- Total Discussions -->
+
+                <div class="stat-card">
+
+                    <h3 id="totalDiscussions">
+                        0
+                    </h3>
+
+                    <p>
+                        Total Discussions
+                    </p>
+
+                </div>
+
+
+                <!-- Supportive -->
+
+                <div class="stat-card">
+
+                    <h3 id="supportiveCount">
+                        0%
+                    </h3>
+
+                    <p>
+                        Supportive
+                    </p>
+
+                </div>
+
+
+                <!-- Opposed -->
+
+                <div class="stat-card">
+
+                    <h3 id="opposedCount">
+                        0%
+                    </h3>
+
+                    <p>
+                        Opposed
+                    </p>
+
+                </div>
+
+
+                <!-- Neutral -->
+
+                <div class="stat-card">
+
+                    <h3 id="neutralCount">
+                        0%
+                    </h3>
+
+                    <p>
+                        Neutral
+                    </p>
+
+                </div>
+
+
+                <!-- Mixed -->
+
+                <div class="stat-card">
+
+                    <h3 id="mixedCount">
+                        0%
+                    </h3>
+
+                    <p>
+                        Mixed
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <p class="model-note">
+                Demo dataset only. This does not represent actual public opinion.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
